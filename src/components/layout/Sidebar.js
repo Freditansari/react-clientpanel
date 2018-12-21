@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
-    <Link to="/clients/add" className="btn btn-success">
+    <Link to="/client/add" className="btn btn-success">
       <i className="fas fa-plus" /> New
     </Link>
   );
